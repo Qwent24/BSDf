@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    user-select: none;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #4d4d4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+.right-img {
+    float: right;
+}
+.left-img {
+    float: left;
+}
+.name {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 125px;
+    font-family: 'Great Vibes', cursive;
+}
+.description {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+#akutagawa {
+    height: 100%;
+    background-color: #262626;
+}
+#akutagawa p {
+    color: #ebebed;
+}
+#dazai {
+    height: 100%;
+    background-color: #262225;
+}
+#dazai p {
+    color: #eceef0;
+}
+#mori {
+    height: 100%;
+    background-color: #39374a;
+}
+#mori p {
+    color: #c4001a;
+}
+#chuya {
+    height: 100%;
+    background-color: #47372e;
+}
+#chuya p {
+    color: #de6e3c;
+}
+#koyo {
+    height: 100%;
+    background-color: #991a2e;
+}
+#koyo p {
+    color: #f8b1c4;
+}
+#higuchi {
+    height: 100%;
+    background-color: #474747;
+}
+#higuchi p {
+    color: #e6d57f;
+}
+#kyusaku {
+    height: 100%;
+    background-color: #a5872c;
+}
+#kyusaku p {
+    color: #141a26;
+}
+#oda {
+    height: 100%;
+    background-color: #733134;
+}
+#oda p {
+    color: #ede39c;
+}
+#ango {
+    height: 100%;
+    background-color: #5e4645;
+}
+#ango p {
+    color: #b6b5c8;
+}
+#kyoka {
+    height: 100%;
+    background-color: #822815;
+}
+#kyoka p {
+    color: #ccbcf5;
+}
+@media (max-width:1000px) {
+    .name {
+        font-size: 75px;
+    }
+    .description {
+        font-size: 30px;
+    }
+    #akutagawa, #dazai, #mori, #chuya, #koyo, #higuchi, #kyusaku, #oda, #ango, #kyoka {
+        height: 25%;
+    }
+}

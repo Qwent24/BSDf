@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    user-select: none;
+}
+@media screen and (max-width: 1200px) {
+    #ada, #pm, #guild {
+        margin-top: 60px;
+        margin-left: -25px;
+    }
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #2e1500;
+}
+header {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Great Vibes', cursive;
+    color: #eddfd3;
+    margin-top: 10px;
+}
+#ada {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    height: 575px;
+    width: 375px;
+    background-image: url("ArmedDetectiveAgency.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-color: #703701;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#ada:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+#ada p {
+    position: relative;
+    text-align: center;
+    top: 510px;
+    z-index: 1;
+    color: #edd8c5;
+    height: 40px;
+    font-size: 35px;
+}
+#pm {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    height: 575px;
+    width: 375px;
+    background-image: url("PortMafia.jpg");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-color: #703701;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#pm:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+#pm p {
+    position: relative;
+    text-align: center;
+    top: 510px;
+    z-index: 1;
+    color: #edd8c5;
+    height: 40px;
+    font-size: 35px;
+}
+#guild {
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    height: 575px;
+    width: 375px;
+    background-image: url("TheGuild.png");
+    background-repeat: no-repeat;
+    background-size: 375px;
+    background-color: #703701;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#guild:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+#guild p {
+    position: relative;
+    text-align: center;
+    top: 510px;
+    z-index: 1;
+    color: #edd8c5;
+    height: 40px;
+    font-size: 35px;
+}

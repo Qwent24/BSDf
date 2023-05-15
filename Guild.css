@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    user-select: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #4d4d4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+.right-img {
+    float: right;
+}
+.left-img {
+    float: left;
+}
+.name {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 125px;
+    font-family: 'Great Vibes', cursive;
+}
+.description {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+#fitzgerald {
+    height: 755px;
+    background-color: #865e35;
+}
+#fitzgerald p {
+    color: #f9ea96;
+}
+#luisa {
+    height: 755px;
+    background-color: #d3b38c;
+}
+#luisa p {
+    color: #593a37;
+}
+#edgar {
+    height: 755px;
+    background-color: #3d474d;
+}
+#edgar p {
+    color: #ece4dd;
+}
+#lovecraft {
+    height: 755px;
+    background-color: #161c2e;
+}
+#lovecraft p {
+    color: #8f715f;
+}
+#steinbeck {
+    height: 755px;
+    background-color: #295165;
+}
+#steinbeck p {
+    color: #ebb954;
+}
+#lucy {
+    height: 755px;
+    background-color: #d6c378;
+}
+#lucy p {
+    color: #bc444e;
+}
+#margaret {
+    height: 755px;
+    background-color: #5d9275;
+}
+#margaret p {
+    color: #1a4d72;
+}
+#nathaniel {
+    height: 755px;
+    background-color: #442b36;
+}
+#nathaniel p {
+    color: #c3cbd4;
+}
+#mark {
+    height: 755px;
+    background-color: #2b3232;
+}
+#mark p {
+    color: #c86e41;
+}
+@media (max-width:1000px) {
+    .name {
+        font-size: 75px;
+    }
+    .description {
+        font-size: 30px;
+    }
+    #fitzgerald, #luisa, #edgar, #lovecraft, #steinbeck, #lucy, #margaret, #nathaniel, #mark {
+        height: 25%;
+    }
+}

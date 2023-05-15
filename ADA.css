@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    user-select: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #4d4d4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+.right-img {
+    float: right;
+}
+.left-img {
+    float: left;
+}
+.name {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 125px;
+    font-family: 'Great Vibes', cursive;
+}
+.description {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+}
+#dazai {
+    height: 100%;
+    background-color: #703701;
+}
+#dazai p {
+    color: #edd8c5;
+}
+#atsushi {
+    height: 100%;
+    background-color: #707070;
+}
+#atsushi p {
+    color: #d6c5b4;
+}
+#ranpo {
+    height: 100%;
+    background-color: #542900;
+}
+#ranpo p {
+    color: #edd8c5;
+}
+#kunikida {
+    height: 100%;
+    background-color: #877310;
+}
+#kunikida p {
+    color: #141412;
+}
+#fukuzawa {
+    height: 100%;
+    background-color: #64754f;
+}
+#fukuzawa p {
+    color: #131410;
+}
+#kyoka {
+    height: 100%;
+    background-color: #822815;
+}
+#kyoka p {
+    color: #ccbcf5;
+}
+#yosano {
+    height: 100%;
+    background-color: #542d41;
+}
+#yosano p {
+    color: #ccccf0;
+}
+#tanizaki {
+    height: 100%;
+    background-color: #822815;
+}
+#tanizaki p {
+    color: #dee8c3;
+}
+#kenji {
+    height: 100%;
+    background-color: #3a6c87;
+}
+#kenji p {
+    color: #ffdf59;
+}
+@media (max-width:1000px) {
+    .name {
+        font-size: 75px;
+    }
+    .description {
+        font-size: 30px;
+    }
+    #dazai, #atsushi, #ranpo, #kunikida, #fukuzawa, #kyoka, #yosano, #tanizaki, #kenji {
+        height: 25%;
+    }
+}
